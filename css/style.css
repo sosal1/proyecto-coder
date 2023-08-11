@@ -85,6 +85,13 @@ justify-content: center;
 
 .header-pag-2{background-color: rgba(246, 245, 241, 1);}
 
+.pages-pag-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
 .main-pag-2{background-color: rgba(217, 217, 217, 1);}
 
 .main-pag-2 h2{font-family: 'Merienda', cursive;}
@@ -129,8 +136,18 @@ grid-template-areas:
 
 .header-pag-3{background-color: rgba(246, 245, 241, 1);
 display: flex;
-justify-content: center;}
+justify-content: center;
+height: 130px;}
 
+.img-pag-3{
+    height: 100px;
+    position: absolute;
+}
+
+.pages-pag-3{
+    display: inline-block;
+    padding-top: 100px;
+}
 
 
 .main-pag-3{
@@ -208,8 +225,22 @@ justify-content: center;}
 display: flex;
 flex-direction: row;
 justify-content: center;
+height: 130px;
+}
+
+
+.img-header-4{
+    height: 100px;
+}
+
+
+.pages-pag-4{
+position: absolute;
+padding-top: 100px;
+
 
 }
+
 
 
 .main-pag-4{
@@ -268,7 +299,22 @@ justify-content: flex-start;
     .header-pag-5{background-color: rgba(246, 245, 241, 1);
     display: flex;
     justify-content: center;
+    height: 130px;
     }
+
+    
+    .img-header-5{
+        height: 100px;
+    }
+
+    
+    .pages-pag-5{
+
+        position: absolute;
+        padding-top: 100px;
+    }
+
+
 
     .main-pag-5{
         font-family: 'Lexend', sans-serif;
